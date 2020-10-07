@@ -1,0 +1,1159 @@
+fileFormatVersion: 2
+guid: d801e6d9c5bf61e4a8e6fc52afef5d5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2763027762189997257
+    second: SPA_Player_Ginger_0
+  - first:
+      213: 9173507307230343747
+    second: SPA_Player_Ginger_1
+  - first:
+      213: 1665185665573014954
+    second: SPA_Player_Ginger_2
+  - first:
+      213: -3188212347926854036
+    second: SPA_Player_Ginger_3
+  - first:
+      213: -5185843610934385366
+    second: SPA_Player_Ginger_4
+  - first:
+      213: 1857188551261513057
+    second: Ginger_Idle_1
+  - first:
+      213: 6789189809220444129
+    second: Ginger_Idle_2
+  - first:
+      213: -8764484971933765363
+    second: Ginger_Idle_3
+  - first:
+      213: 1194579902333200216
+    second: Ginger_Idle_4
+  - first:
+      213: -4017359576992510106
+    second: SPA_Player_Ginger_9
+  - first:
+      213: -4379642296028604701
+    second: SPA_Player_Ginger_10
+  - first:
+      213: -1493868537594019975
+    second: SPA_Player_Ginger_11
+  - first:
+      213: 772350993469748656
+    second: SPA_Player_Ginger_12
+  - first:
+      213: -1334005762242586354
+    second: SPA_Player_Ginger_13
+  - first:
+      213: 8228706941234221694
+    second: SPA_Player_Ginger_14
+  - first:
+      213: 1207788891075368511
+    second: SPA_Player_Ginger_15
+  - first:
+      213: -8152553175751481737
+    second: SPA_Player_Ginger_16
+  - first:
+      213: -555797951257338279
+    second: SPA_Player_Ginger_17
+  - first:
+      213: 1642604897641511964
+    second: SPA_Player_Ginger_18
+  - first:
+      213: 497394434913321410
+    second: SPA_Player_Ginger_19
+  - first:
+      213: 8126528979968981486
+    second: SPA_Player_Ginger_20
+  - first:
+      213: -2975397403675712219
+    second: SPA_Player_Ginger_21
+  - first:
+      213: 5469852598194841770
+    second: SPA_Player_Ginger_22
+  - first:
+      213: 45878478628660970
+    second: SPA_Player_Ginger_23
+  - first:
+      213: 6148105541944609538
+    second: SPA_Player_Ginger_24
+  - first:
+      213: 9200238640206788070
+    second: SPA_Player_Ginger_25
+  - first:
+      213: 5866028796149428683
+    second: SPA_Player_Ginger_26
+  - first:
+      213: -1685358898804459016
+    second: SPA_Player_Ginger_27
+  - first:
+      213: -6751380181678565474
+    second: SPA_Player_Ginger_28
+  - first:
+      213: 8701572134721808159
+    second: SPA_Player_Ginger_29
+  - first:
+      213: -1946447994227403751
+    second: SPA_Player_Ginger_30
+  - first:
+      213: 1652622680747535956
+    second: SPA_Player_Ginger_31
+  - first:
+      213: -3724039121040418092
+    second: SPA_Player_Ginger_32
+  - first:
+      213: 8975978384335065852
+    second: SPA_Player_Ginger_33
+  - first:
+      213: 4152014944764601562
+    second: SPA_Player_Ginger_34
+  - first:
+      213: -2574906386462088155
+    second: SPA_Player_Ginger_35
+  - first:
+      213: 586916011929172672
+    second: SPA_Player_Ginger_36
+  - first:
+      213: -1965374904943056859
+    second: SPA_Player_Ginger_37
+  - first:
+      213: 8134855050729132556
+    second: SPA_Player_Ginger_38
+  - first:
+      213: -980586647875890290
+    second: SPA_Player_Ginger_39
+  - first:
+      213: -8578305245741093844
+    second: SPA_Player_Ginger_40
+  - first:
+      213: -3027571675720038796
+    second: SPA_Player_Ginger_41
+  - first:
+      213: -7970652064231169524
+    second: SPA_Player_Ginger_42
+  - first:
+      213: 3100832804867886005
+    second: SPA_Player_Ginger_43
+  - first:
+      213: 5233067398170983149
+    second: SPA_Player_Ginger_44
+  - first:
+      213: -7873430327761671509
+    second: SPA_Player_Ginger_45
+  - first:
+      213: 6527269051289904583
+    second: SPA_Player_Ginger_46
+  - first:
+      213: -1241016246395036780
+    second: SPA_Player_Ginger_47
+  - first:
+      213: -8067385221315437477
+    second: SPA_Player_Ginger_48
+  - first:
+      213: 1944134717473961227
+    second: SPA_Player_Ginger_49
+  - first:
+      213: -2063188612750823838
+    second: SPA_Player_Ginger_50
+  - first:
+      213: 2439611766136497391
+    second: SPA_Player_Ginger_51
+  - first:
+      213: 7361446864658955732
+    second: SPA_Player_Ginger_52
+  - first:
+      213: 7199998152561793747
+    second: SPA_Player_Ginger_53
+  - first:
+      213: 6756640860232157153
+    second: SPA_Player_Ginger_54
+  - first:
+      213: 3109102248697094262
+    second: SPA_Player_Ginger_55
+  - first:
+      213: 6095036801035892576
+    second: SPA_Player_Ginger_56
+  - first:
+      213: 600524459803886963
+    second: SPA_Player_Ginger_57
+  - first:
+      213: 1329826737546288903
+    second: SPA_Player_Ginger_58
+  - first:
+      213: -8351152103268306460
+    second: SPA_Player_Ginger_59
+  - first:
+      213: -7436958159834908836
+    second: SPA_Player_Ginger_60
+  - first:
+      213: -7106877681993179911
+    second: SPA_Player_Ginger_61
+  - first:
+      213: -7122559969572051754
+    second: SPA_Player_Ginger_62
+  - first:
+      213: 2196357168314090245
+    second: SPA_Player_Ginger_63
+  - first:
+      213: -7835152075026732205
+    second: SPA_Player_Ginger_64
+  - first:
+      213: 1950631512104510239
+    second: SPA_Player_Ginger_65
+  - first:
+      213: -5750988989304855356
+    second: SPA_Player_Ginger_66
+  - first:
+      213: -5705669063414349327
+    second: SPA_Player_Ginger_67
+  - first:
+      213: 3054205151419720083
+    second: SPA_Player_Ginger_68
+  - first:
+      213: 2942308335752941445
+    second: SPA_Player_Ginger_69
+  - first:
+      213: -4497624572548925153
+    second: SPA_Player_Ginger_70
+  - first:
+      213: 8186152723075029363
+    second: SPA_Player_Ginger_71
+  - first:
+      213: 6327992375661868139
+    second: SPA_Player_Ginger_72
+  - first:
+      213: -4073981070414676389
+    second: SPA_Player_Ginger_73
+  - first:
+      213: -141620131483076740
+    second: SPA_Player_Ginger_74
+  - first:
+      213: 1488348158979402760
+    second: SPA_Player_Ginger_75
+  - first:
+      213: -1469857610869425574
+    second: SPA_Player_Ginger_76
+  - first:
+      213: -2853997769845537088
+    second: SPA_Player_Ginger_77
+  - first:
+      213: -5624103899975726752
+    second: SPA_Player_Ginger_78
+  - first:
+      213: -1355915862545563769
+    second: SPA_Player_Ginger_79
+  - first:
+      213: 3646758182402240628
+    second: SPA_Player_Ginger_80
+  - first:
+      213: 2257747415774454046
+    second: SPA_Player_Ginger_81
+  - first:
+      213: 1090178167543189256
+    second: SPA_Player_Ginger_82
+  - first:
+      213: -6861412202803791783
+    second: SPA_Player_Ginger_83
+  - first:
+      213: 3705239470116139314
+    second: SPA_Player_Ginger_84
+  - first:
+      213: -2136457759493508612
+    second: SPA_Player_Ginger_85
+  - first:
+      213: -6918683784577317645
+    second: SPA_Player_Ginger_86
+  - first:
+      213: 7484216190735231859
+    second: SPA_Player_Ginger_87
+  - first:
+      213: 303365276642093963
+    second: SPA_Player_Ginger_88
+  - first:
+      213: 4226358695308651929
+    second: SPA_Player_Ginger_89
+  - first:
+      213: -8412176792085096752
+    second: SPA_Player_Ginger_90
+  - first:
+      213: 2858036076247474461
+    second: SPA_Player_Ginger_91
+  - first:
+      213: -1345984457450177900
+    second: SPA_Player_Ginger_92
+  - first:
+      213: -2622994929184232620
+    second: SPA_Player_Ginger_93
+  - first:
+      213: -2528571991410220219
+    second: SPA_Player_Ginger_94
+  - first:
+      213: -6003014830563821459
+    second: SPA_Player_Ginger_95
+  - first:
+      213: -4931941080485682970
+    second: SPA_Player_Ginger_96
+  - first:
+      213: 5278898376600863181
+    second: SPA_Player_Ginger_97
+  - first:
+      213: 8949446946067463888
+    second: SPA_Player_Ginger_98
+  - first:
+      213: -1573912157864449465
+    second: SPA_Player_Ginger_99
+  - first:
+      213: -8373447124203291684
+    second: SPA_Player_Ginger_100
+  - first:
+      213: -997805954007780591
+    second: SPA_Player_Ginger_101
+  - first:
+      213: -6661065529218360260
+    second: SPA_Player_Ginger_102
+  - first:
+      213: -765447173952162007
+    second: SPA_Player_Ginger_103
+  - first:
+      213: -4708145203563615005
+    second: SPA_Player_Ginger_104
+  - first:
+      213: 8860696631440915042
+    second: SPA_Player_Ginger_105
+  - first:
+      213: 4777141160446996561
+    second: SPA_Player_Ginger_106
+  - first:
+      213: 7105074905540216728
+    second: SPA_Player_Ginger_107
+  - first:
+      213: -8851170458857502504
+    second: SPA_Player_Ginger_108
+  - first:
+      213: 6925681187367000337
+    second: SPA_Player_Ginger_109
+  - first:
+      213: 4183368354062828517
+    second: SPA_Player_Ginger_110
+  - first:
+      213: 9143124302237515927
+    second: SPA_Player_Ginger_111
+  - first:
+      213: 4215173503738667190
+    second: SPA_Player_Ginger_0
+  - first:
+      213: -1697428996952928928
+    second: SPA_Player_Ginger_1
+  - first:
+      213: 8079355342119280651
+    second: SPA_Player_Ginger_2
+  - first:
+      213: 3566782359973126595
+    second: SPA_Player_Ginger_3
+  - first:
+      213: -5094607558221796790
+    second: SPA_Player_Ginger_4
+  - first:
+      213: 474062644597779511
+    second: SPA_Player_Ginger_5
+  - first:
+      213: 2948581728499610820
+    second: SPA_Player_Ginger_6
+  - first:
+      213: 8603184401403633953
+    second: SPA_Player_Ginger_7
+  - first:
+      213: 2035068877123371616
+    second: SPA_Player_Ginger_8
+  - first:
+      213: -2831210603393484013
+    second: SPA_Player_Ginger_9
+  - first:
+      213: -7725009109416004267
+    second: SPA_Player_Ginger_10
+  - first:
+      213: -8367895804174069158
+    second: SPA_Player_Ginger_11
+  - first:
+      213: -7836877085981418883
+    second: SPA_Player_Ginger_12
+  - first:
+      213: 59276722033712632
+    second: SPA_Player_Ginger_13
+  - first:
+      213: -5605928705076728383
+    second: SPA_Player_Ginger_14
+  - first:
+      213: -9167235431427518239
+    second: SPA_Player_Ginger_15
+  - first:
+      213: -3846520802515738664
+    second: SPA_Player_Ginger_16
+  - first:
+      213: 5101442029105023200
+    second: SPA_Player_Ginger_17
+  - first:
+      213: -3482767199758092873
+    second: SPA_Player_Ginger_18
+  - first:
+      213: -2814716760345921513
+    second: SPA_Player_Ginger_19
+  - first:
+      213: -4505568708685355575
+    second: SPA_Player_Ginger_20
+  - first:
+      213: 7431302585258012911
+    second: SPA_Player_Ginger_21
+  - first:
+      213: -8150342752673347544
+    second: SPA_Player_Ginger_22
+  - first:
+      213: -3471622399291653174
+    second: SPA_Player_Ginger_23
+  - first:
+      213: 2720059480068933536
+    second: SPA_Player_Ginger_24
+  - first:
+      213: -446581077364983452
+    second: SPA_Player_Ginger_25
+  - first:
+      213: 2711195052286572417
+    second: SPA_Player_Ginger_26
+  - first:
+      213: 2283086241270457143
+    second: SPA_Player_Ginger_27
+  - first:
+      213: -4679358958324915403
+    second: SPA_Player_Ginger_28
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 196
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b06bfcf7fd4f7a30800000000000000
+      internalID: 4215173503738667190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 196
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d4c2512558178e0800000000000000
+      internalID: -1697428996952928928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 196
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00ac2d90e2af1070800000000000000
+      internalID: 8079355342119280651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 196
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1e355a8a1cf7130800000000000000
+      internalID: 3566782359973126595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 196
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a6b2e0b615c49b0800000000000000
+      internalID: -5094607558221796790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c688ca675349600800000000000000
+      internalID: 474062644597779511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c43d66b5777be820800000000000000
+      internalID: 2948581728499610820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12168d6a1a6a46770800000000000000
+      internalID: 8603184401403633953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062446a8c540e3c10800000000000000
+      internalID: 2035068877123371616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b7964e4f485b8d0800000000000000
+      internalID: -2831210603393484013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5553a92d4214bc490800000000000000
+      internalID: -7725009109416004267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_11
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5219b2e9134fdb80800000000000000
+      internalID: -8367895804174069158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_12
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7adda5dfc1dd3390800000000000000
+      internalID: -7836877085981418883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdd4485dd792d000800000000000000
+      internalID: 59276722033712632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 82
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd6cb15b8db332b0800000000000000
+      internalID: -5605928705076728383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 82
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e05369f1ff67c080800000000000000
+      internalID: -9167235431427518239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df16e8b5b96e9ac0800000000000000
+      internalID: -3846520802515738664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e88d033f76fbc640800000000000000
+      internalID: 5101442029105023200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5790f2fa9baafc0800000000000000
+      internalID: -3482767199758092873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7183e3cf40e10f8d0800000000000000
+      internalID: -2814716760345921513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5a1b781210971c0800000000000000
+      internalID: -4505568708685355575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_21
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0febc145a412760800000000000000
+      internalID: 7431302585258012911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_22
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828c935e27a24ee80800000000000000
+      internalID: -8150342752673347544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_23
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac38eef32d152dfc0800000000000000
+      internalID: -3471622399291653174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a741758fa79fb520800000000000000
+      internalID: 2720059480068933536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_25
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469bf3050ec6dc9f0800000000000000
+      internalID: -446581077364983452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_26
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1877658198910a520800000000000000
+      internalID: 2711195052286572417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_27
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733e18217d62faf10800000000000000
+      internalID: 2283086241270457143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_28
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5336088d1d39f0fb0800000000000000
+      internalID: -4679358958324915403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
