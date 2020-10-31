@@ -4910,7 +4910,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &662310146
 SpriteRenderer:
@@ -13565,17 +13565,17 @@ PrefabInstance:
     - target: {fileID: 2812114271607135017, guid: c85530b2cbdbaab46a312beb656fa79f,
         type: 3}
       propertyPath: orthographic size
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2812114271607135190, guid: c85530b2cbdbaab46a312beb656fa79f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.9163506
+      value: -2.9264286
       objectReference: {fileID: 0}
     - target: {fileID: 2812114271607135190, guid: c85530b2cbdbaab46a312beb656fa79f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.640442
+      value: 19.026138
       objectReference: {fileID: 0}
     - target: {fileID: 2812114271947122568, guid: c85530b2cbdbaab46a312beb656fa79f,
         type: 3}

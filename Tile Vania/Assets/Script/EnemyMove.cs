@@ -5,14 +5,13 @@ using UnityEngine;
 public class EnemyMove : MonoBehaviour
 {
     [SerializeField] private float speed = 1f;
-    Rigidbody2D myRigidBody;
-    // Start is called before the first frame update
+    Rigidbody2D myRigidBody;    
+    
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (IsFacingRight())
@@ -25,6 +24,7 @@ public class EnemyMove : MonoBehaviour
         }
         
     }
+
     bool IsFacingRight()
     {
         return transform.localScale.x > 0;

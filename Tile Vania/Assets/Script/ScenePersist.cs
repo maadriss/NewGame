@@ -2,15 +2,11 @@
 using UnityEngine.SceneManagement;
 
 public class ScenePersist : MonoBehaviour
-{
-    //if awakeScene != currentScene
-
-    int start_scene_index;
-    int awakeScene;
+{    
+    int start_scene_index;    
     
     private void Awake()
-    {
-        awakeScene = SceneManager.GetActiveScene().buildIndex;
+    {        
         int number_of_persist = FindObjectsOfType<ScenePersist>().Length;
         if (number_of_persist > 1)
         {
@@ -29,8 +25,7 @@ public class ScenePersist : MonoBehaviour
 
     void Update()
     {        
-        int current_scene_index = SceneManager.GetActiveScene().buildIndex;
-        Debug.Log("Update: " + current_scene_index);
+        int current_scene_index = SceneManager.GetActiveScene().buildIndex;     
         if (current_scene_index != start_scene_index)
         {
             

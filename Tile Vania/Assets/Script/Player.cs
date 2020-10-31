@@ -1,17 +1,15 @@
 ﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-// Bugs:
-// 1- When level 2 starts then there's no coin until player dies.
-// 2- In level 2 when player dies then ScenePersist don't work correctly.
-// 3- When each level starts life is get started again.
-
 public class Player : MonoBehaviour
 {
+
     Rigidbody2D rigidbody2d;
+    Animator anim;
+
     CapsuleCollider2D myBody;
     BoxCollider2D myFeet;
-    Animator anim;
+    
     float first_gravity;
     bool isShoot = false;
     [SerializeField] float speed = 5f;
@@ -21,6 +19,7 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject ammo;
     [SerializeField] GameObject start_position;
     RaycastHit2D[] rays;
+
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
@@ -30,7 +29,7 @@ public class Player : MonoBehaviour
         first_gravity = rigidbody2d.gravityScale;
         // Sets the start position of player to the start_position gameobject.
         transform.position = start_position.transform.position;
-    }    
+    }
     void Update()
     {        
         if (!isAlive) { return; }

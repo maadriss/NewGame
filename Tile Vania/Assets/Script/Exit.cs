@@ -15,6 +15,10 @@ public class Exit : MonoBehaviour
         Time.timeScale = slowMotionTime;
         yield return new WaitForSecondsRealtime(exitTime);
         Time.timeScale = 1;
+        // <start> Destroy the scene persist.
+        ScenePersist scenePersist = FindObjectOfType<ScenePersist>();
+        Destroy(scenePersist.gameObject);
+        // <end>
         int currentScene = SceneManager.GetActiveScene().buildIndex + 1;
         SceneManager.LoadScene(currentScene);
     }
