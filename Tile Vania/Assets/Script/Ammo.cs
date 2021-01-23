@@ -15,4 +15,9 @@ public class Ammo : MonoBehaviour
     {
         transform.Translate(Vector2.right * 5f * Time.deltaTime);
     }
+    // This method shoot the ammo with playing the animation of it if it has.
+    public void Shoot()
+    {
+
+    }
 }
