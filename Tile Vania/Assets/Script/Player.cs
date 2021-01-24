@@ -1,16 +1,19 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class Player : MonoBehaviour
 {
-
     Rigidbody2D rigidbody2d;
     Animator anim;
 
+    public static Player _player;
+    
     CapsuleCollider2D myBody;
     BoxCollider2D myFeet;
     
     float first_gravity;
+    float nextFire = 0, firerate = 0.3f;
     bool isShoot = false;
     [SerializeField] float speed = 5f;
     [SerializeField] float jump_speed = 5f;
@@ -19,6 +22,11 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject ammo;
     [SerializeField] GameObject start_position;
     RaycastHit2D[] rays;
+
+    private void Awake()
+    {
+        _player = this;
+    }
 
     void Start()
     {
@@ -95,10 +103,18 @@ public class Player : MonoBehaviour
 
     private void Shoot()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        bool c_down = false;
+        if (Input.GetKeyDown(KeyCode.C) && Time.time > nextFire)
         {
-            GameObject ammoPrefab = Instantiate(ammo, transform.position + new Vector3(0.2f, 0, 0), Quaternion.identity);
-            anim.SetBool("Shoot", true);
+            nextFire = Time.time + firerate;
+            c_down = true;
+            Instantiate(ammo, transform.position + new Vector3(0.2f, -0.262f, 0), Quaternion.identity);
+            anim.SetBool("Shoot", c_down);
+        }
+        else
+        {
+            c_down = false;
+            anim.SetBool("Shoot", c_down);
         }
     }
 }

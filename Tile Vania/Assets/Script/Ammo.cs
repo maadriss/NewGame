@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class Ammo : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private BoxCollider2D _boxCollider2D;
     void Start()
     {
-        
+        _boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.right * 5f * Time.deltaTime);
-    }
-    // This method shoot the ammo with playing the animation of it if it has.
-    public void Shoot()
-    {
+        transform.Translate(Vector2.right * 1f * Time.deltaTime);
 
+        if (_boxCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        {
+            Destroy(gameObject);
+        }
     }
 }
