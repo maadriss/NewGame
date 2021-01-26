@@ -28,11 +28,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Script/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemyMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Ammo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Player.cs" />
       </list>
     </option>
   </component>
@@ -77,6 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1611477271701</updated>
       <workItem from="1611477275941" duration="10006000" />
+      <workItem from="1611566125181" duration="4237000" />
+      <workItem from="1611650420196" duration="6175000" />
     </task>
     <servers />
   </component>
@@ -95,14 +103,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="0" key="SettingsEditor" timestamp="1611482556167">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1611571211562">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1611482556167" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1611571211562" />
   </component>
 </project>
