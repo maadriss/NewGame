@@ -2,12 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ * Add sounds:
+ * Death, Shoot, jump, hited bullet, heal.
+ */
 /// <summary>
 /// Shoot the bullet by velocity of it.
 /// </summary>
 public class Ammo : MonoBehaviour
 {
+    public GameObject bulletAnim;
     private BoxCollider2D _boxCollider2D;
     public GameObject firePoint;
     public Rigidbody2D rigidBody;
@@ -22,7 +26,9 @@ public class Ammo : MonoBehaviour
     {
         if (_boxCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy", "Ground", "Hazards")))
         {
-            Destroy(gameObject);
+            GameObject bulletAnimInstans = Instantiate(bulletAnim, transform.position, transform.rotation);
+            Destroy(bulletAnimInstans, 0.5f);
+            Destroy(gameObject);            
         }
     }
 

@@ -85,6 +85,7 @@
       <workItem from="1611477275941" duration="10006000" />
       <workItem from="1611566125181" duration="4237000" />
       <workItem from="1611650420196" duration="6175000" />
+      <workItem from="1611735954769" duration="312000" />
     </task>
     <servers />
   </component>
@@ -109,6 +110,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611735982233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1611735982233" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1611571211562">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
