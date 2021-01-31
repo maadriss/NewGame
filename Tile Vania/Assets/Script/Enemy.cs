@@ -17,6 +17,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+
         if (IsFacingRight())
         {
             myRigidBody.velocity = new Vector2(speed, 0f);
