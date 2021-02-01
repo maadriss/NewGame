@@ -9,12 +9,11 @@ public class GameSession : MonoBehaviour
     [SerializeField] int score = 0;
     [SerializeField] Text livesText;
     [SerializeField] Text scoreText;
-    byte enemyCounter = 0;
-    //Give student buttons
-    //
+    uint enemyCounter = 0;
+    uint makeMoreEnemies = 10;
+    uint waves = 0;
     public Enemy enemy;
     public Transform[] enemyStartPosition = new Transform[2];
-
 
     private void Awake()
     {
@@ -63,15 +62,25 @@ public class GameSession : MonoBehaviour
         SceneManager.LoadScene(0);
         Destroy(gameObject);
     }
-    //  :|
     IEnumerator InstantiateEnemies()
     {
         Instantiate(enemy, enemyStartPosition[0]);
         enemyCounter++;
-        yield return new WaitForSeconds(1f);
-        if (enemyCounter < 10)
+        yield return new WaitForSeconds(Random.Range(1, 7));
+        // If not enough enemies instantiated for this wave
+        if (enemyCounter < makeMoreEnemies)
+        {            
+            StartCoroutine(InstantiateEnemies());
+        }
+        // If enough enemies instantiated for this wave
+        else if (enemyCounter == makeMoreEnemies)
         {
-            StartCoroutine(InstantiateEnemies());            
+            // Add more enemies for next wave
+            makeMoreEnemies += 10;
+            // Make enemyCounter to 0 for next wave
+            enemyCounter = 0;
+            // Add on unit to wave and next wave started.
+            waves++;
         }
     }
 }
