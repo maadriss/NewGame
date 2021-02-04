@@ -10,7 +10,7 @@ using UnityEngine;
 /// Shoot the bullet by velocity of it.
 /// </summary>
 public class Ammo : MonoBehaviour
-{
+{    
     public GameObject bulletAnim;
     private BoxCollider2D _boxCollider2D;
     public GameObject firePoint;

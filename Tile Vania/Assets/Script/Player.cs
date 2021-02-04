@@ -24,6 +24,11 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject start_position;
     RaycastHit2D[] rays;
 
+    public Animator PlayerAnimator
+    {
+        get { return anim; }
+    }
+
     private void Awake()
     {
         _player = this;
@@ -44,7 +49,7 @@ public class Player : MonoBehaviour
     {
         if (!isAlive)
         {
-            return;
+            //return;
         }
 
         Run();
@@ -88,7 +93,7 @@ public class Player : MonoBehaviour
             transform.rotation = new Quaternion(0, 0, 0, 0);
             anim.SetBool("Run", true);
         }
-        else if (move==0)
+        else if (move == 0)
         {
             anim.SetBool("Run", false);
         }
@@ -126,7 +131,8 @@ public class Player : MonoBehaviour
         if (myBody.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazards")))
         {
             isAlive = false;
-            anim.SetTrigger("Dying");
+            //anim.Play("Player_Idle");
+            
             rigidbody2d.velocity = new Vector2(5f, 10f);
             FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }

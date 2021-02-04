@@ -182,3 +182,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  gameSession: {fileID: 8755174697140084411, guid: 15a293ecbe4ae584c8f0e3b2b83b71ee,
+    type: 3}

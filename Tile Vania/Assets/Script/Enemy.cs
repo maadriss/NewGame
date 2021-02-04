@@ -22,12 +22,29 @@ public class Enemy : MonoBehaviour
      *
      *
      */
+
+
     [SerializeField] private float speed = 1f;
     Rigidbody2D myRigidBody;
     private int health = 100;
+    GameSession gameSession;
+    public bool enemyDies = false;
+
+    [SerializeField] uint enemies_number;
+    // Get enemies number for other classes
+    public uint EnemiesNumber { get { return enemies_number; } }
+    void CountEnemies() 
+    {
+        enemies_number++;
+    }
+    
 
     void Start()
     {
+        // Count enemies number for when all the enemies die and next wave should start
+        CountEnemies();        
+
+        gameSession = GameObject.Find("GameSession").GetComponent<GameSession>();
         myRigidBody = GetComponent<Rigidbody2D>();
     }
 
@@ -47,14 +64,14 @@ public class Enemy : MonoBehaviour
     {
         return transform.localScale.x > 0;
     }
-
+    
     private void OnTriggerExit2D(Collider2D collision)
     {        
-        // if bullet hit enemy dont turn back.
+        // if bullet hit enemy dont turn back and player.
         if (collision.tag != "Ammo")
         {
             transform.localScale = new Vector2(-(Mathf.Sign(myRigidBody.velocity.x)), 1f);
-        }                        
+        }
     }
 
     public void TakeDamage(int damage)
@@ -63,11 +80,13 @@ public class Enemy : MonoBehaviour
         if (health <= 0)
         {
             Die();
+            enemyDies = true;
+            print(enemyDies);
         }
     }
-
-    void Die()
+    public void Die()
     {
-        Destroy(gameObject);
+        gameSession.AddToScore(10);
+        Destroy(gameObject, 0.1f);
     }
 }
