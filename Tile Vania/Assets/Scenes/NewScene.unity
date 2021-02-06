@@ -8389,7 +8389,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2812114271228907037}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.944463, y: -4.49584, z: -10}
+  m_LocalPosition: {x: -9.94447, y: -4.4998894, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2812114270411305206}
@@ -9054,11 +9054,19 @@ MonoBehaviour:
   score: 0
   livesText: {fileID: 4829300474656441050}
   scoreText: {fileID: 5769095560003003549}
+  enemyKind:
+  - {fileID: 3246168809409236520, guid: f0c298aa256e7e54caf5cd7595c91924, type: 3}
+  - {fileID: 3246168809409236520, guid: fe2ef613d0b11c34aa647d9f5c8251af, type: 3}
+  - {fileID: 3246168809409236520, guid: 7e1598af9c14989499954812a4fb2957, type: 3}
+  - {fileID: 3246168809409236520, guid: 82460623caa269d47be573ebc5d76791, type: 3}
+  - {fileID: 3246168809409236520, guid: 6b1c79c256dbe7644986b9ce30be09f4, type: 3}
+  - {fileID: 3246168809409236520, guid: fb1fd0b9fec852b46b83c9bad0d478a5, type: 3}
   waveText: {fileID: 180345208}
   enemy: {fileID: 3246168809409236526, guid: f0c298aa256e7e54caf5cd7595c91924, type: 3}
   enemyStartPosition:
   - {fileID: 0}
   - {fileID: 0}
+  enemies_number: 0
 --- !u!4 &8755174698607435454
 Transform:
   m_ObjectHideFlags: 0

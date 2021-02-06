@@ -5,19 +5,38 @@ using System.Collections;
 
 public class GameSession : MonoBehaviour
 {
+    //_Bugs:
+    // 1- Health decrease two times
+    // 2- Second way doesn't starts.
+    // 3- Player doesn't die because after two points decrease from life then
+    // one point remains and never this one point decreases.
+
+    // Things to do now:
+    // Each wave starts after previes wave.
+    // Each wave more enemies instantiated
+    // Each wave powerful enemies instantiated
+    // Randomly enemies instantiated with every power.
+    // Add health for every enemy.
+
     [SerializeField] int playerLives = 3;
     [SerializeField] int score = 0;
     [SerializeField] Text livesText;
     [SerializeField] Text scoreText;
+    [SerializeField] GameObject[] enemyKind = new GameObject[6];
     uint enemyCounter = 0;
-    uint makeMoreEnemies = 1;
+    uint makeMoreEnemies = 10;
     uint waves = 1;
     public Text waveText;
     public Enemy enemy;
     public Transform[] enemyStartPosition = new Transform[2];
     // The player in the scene.
-    GameObject player;    
-    
+    GameObject player;
+    [SerializeField] uint enemies_number;
+    // Get enemies number for other classes   
+    public void CountEnemies()
+    {
+        enemies_number++;
+    }
 
     private void Awake()
     {
@@ -28,15 +47,14 @@ public class GameSession : MonoBehaviour
     }
 
     void Start()
-    {
+    {       
         waveText.text = waves.ToString();
         player = GameObject.Find("Player");
         enemyStartPosition[0] = GameObject.Find("EnemyStartPosition1").transform;
         enemyStartPosition[1] = GameObject.Find("EnemyStartPosition2").transform;
         livesText.text = playerLives.ToString();
         scoreText.text = score.ToString();
-        StartCoroutine(InstantiateEnemies());
-        
+        StartCoroutine(InstantiateEnemies());        
     }
 
     private void Update()
@@ -99,7 +117,7 @@ public class GameSession : MonoBehaviour
 
     IEnumerator InstantiateEnemies()
     {
-        Instantiate(enemy, enemyStartPosition[Random.Range(0, 2)]);
+        Instantiate(enemyKind[Random.Range(0, 7)], enemyStartPosition[Random.Range(0, 2)]);
         enemyCounter++;
         yield return new WaitForSeconds(Random.Range(1, 7));
         // If not enough enemies instantiated for this wave
