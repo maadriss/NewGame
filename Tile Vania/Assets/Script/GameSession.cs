@@ -5,6 +5,8 @@ using System.Collections;
 
 public class GameSession : MonoBehaviour
 {
+
+
     //_Bugs:
     // 1- Health decrease two times
     // 2- Second way doesn't starts.
@@ -29,6 +31,7 @@ public class GameSession : MonoBehaviour
     public Text waveText;
     public Enemy enemy;
     public Transform[] enemyStartPosition = new Transform[2];
+    GameObject player_shield;
     // The player in the scene.
     GameObject player;
     [SerializeField] uint enemies_number;
@@ -47,14 +50,23 @@ public class GameSession : MonoBehaviour
     }
 
     void Start()
-    {       
-        waveText.text = waves.ToString();
-        player = GameObject.Find("Player");
-        enemyStartPosition[0] = GameObject.Find("EnemyStartPosition1").transform;
-        enemyStartPosition[1] = GameObject.Find("EnemyStartPosition2").transform;
+    {
+        Find_Game_Objects();
+        waveText.text = waves.ToString();        
         livesText.text = playerLives.ToString();
         scoreText.text = score.ToString();
         StartCoroutine(InstantiateEnemies());        
+    }
+
+    // For searching all game objects we want.
+    void Find_Game_Objects()
+    {
+        player_shield = GameObject.Find("PlayerShield");
+        player = GameObject.Find("Player");
+        for (int i = 0; i < enemyStartPosition.Length; i++)
+        {            
+            enemyStartPosition[i] = GameObject.Find("EnemyStartPosition" + (1 + i)).transform;
+        }                
     }
 
     private void Update()
@@ -75,16 +87,24 @@ public class GameSession : MonoBehaviour
         if (playerLives > 1) { TakeLife(); }
         else 
         {
+            // show Game over Panel 
+
             //ResetGameSession();            
-            // #Bug: If player start from firs point of game and then an enemy stay there this means player dies again.
+            // _Bug: If player start from firs point of game and then an enemy stay there this means player dies again.
         }
     }
 
     
     private void TakeLife()
     {
-        // Decrease player health, when player dies start again from startPos position.
-        playerLives--;                
+        // Decrease player health,         
+        playerLives--;
+        // when player dies start again from startPos position.
+        player.transform.position = Player._player.start_position.transform.position;
+
+        // PlayerShield activated
+
+
         /*
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
@@ -117,9 +137,9 @@ public class GameSession : MonoBehaviour
 
     IEnumerator InstantiateEnemies()
     {
-        Instantiate(enemyKind[Random.Range(0, 7)], enemyStartPosition[Random.Range(0, 2)]);
+        Instantiate(enemyKind[Random.Range(0, 6)], enemyStartPosition[Random.Range(0, 2)]);
         enemyCounter++;
-        yield return new WaitForSeconds(Random.Range(1, 7));
+        yield return new WaitForSeconds(Random.Range(1, 5));
         // If not enough enemies instantiated for this wave
         if (enemyCounter < makeMoreEnemies)
         {            

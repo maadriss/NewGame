@@ -19,11 +19,14 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
+/*
         if (GetComponent<Image>().color == Color.yellow)
         {
             Debug.Log("Yellow");
         }
         else { Debug.Log("not yellow"); }
+*/
+
 
         // Count enemies number for when all the enemies die and next wave should start
         

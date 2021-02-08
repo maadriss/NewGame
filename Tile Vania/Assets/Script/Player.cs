@@ -21,8 +21,8 @@ public class Player : MonoBehaviour
     [SerializeField] bool isAlive = true;
     public static bool fliped_player;
     [SerializeField] GameObject ammo;
-    [SerializeField] GameObject start_position;
-    RaycastHit2D[] rays;
+    public GameObject start_position;
+    RaycastHit2D[] rays;    
 
     public Animator PlayerAnimator
     {
@@ -133,7 +133,7 @@ public class Player : MonoBehaviour
             isAlive = false;
             //anim.Play("Player_Idle");
             
-            rigidbody2d.velocity = new Vector2(5f, 10f);
+            //rigidbody2d.velocity = new Vector2(5f, 10f);
             FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
     }
